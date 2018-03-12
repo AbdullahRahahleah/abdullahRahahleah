@@ -16,7 +16,7 @@
 <h2 >Hello ${Objects.getUserInfo().getUserId()} </h2>
 <br/>
 <div class="card-deck">
-<form action = "/home" method = "GET">
+<form action = "home" method = "GET">
 	  <label class="mr-sm-2" for="inlineFormCustomSelect">Destination City (like Miami )</label>
 	  <input type="text" name ="destinationCity" value=""/>	 
 	  <br/>
